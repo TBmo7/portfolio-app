@@ -1,0 +1,181 @@
+
+.home-page-container{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Sree Krushnadevaraya', serif;
+    
+    background: #1A1E1F;
+    color: #D8E7E9;
+  
+    width:100%;
+    height:100%;
+    min-width: 400px;
+    min-height:800px;
+  }
+  
+  .top-block{
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+   
+  }
+ 
+  .content-holder{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    min-height:60px;
+    height:100%;
+   }
+   .content-holder a{
+     text-decoration: none;
+   }
+   .content-holder a:visited{
+     color:#D8E7E9;
+   }
+
+   .top-contact-link{
+    background: url("../Images/code-left.jpg");
+    background-size: 200% 200%;
+     width:33%;
+     
+     
+     
+   }
+   .top-Troy-link{
+    background: url("../Images/code-center.jpg");
+    background-size: 200% 200%;
+     width:34%;
+     
+   }
+   .top-projects-link{
+    background: url("../Images/code-right.jpg");
+    background-size: 200% 200%;
+     width:33%;
+     
+     
+   }
+
+   .top-contact{
+     height:60px;
+     width:100%;
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     background-color: rgba(4, 4, 15, .8);
+     
+     
+   }
+   
+   .top-Troy{
+     height:60px;
+     
+     width:100%;
+     
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     background-color: rgba(4, 4, 15, .8);
+     
+   }
+
+   .top-projects{
+     height:60px;
+     
+     width:100%;
+     
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     background-color: rgba(4, 4, 15, .8);
+     
+   }
+
+
+
+  
+  
+  .middle-block{
+    background: url("../Images/closeup-photo-of-black-and-blue-keyboard-1194713.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+
+    height:100%;
+    
+    min-height:670px; /*temporary*/
+    width: 100%;
+    
+  }
+  .middle-color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height:100%;
+    width:100%;
+    min-height: 680px;
+    background-color: rgba(14, 21, 58, .8);
+    
+  }
+  .middle-color p{
+    justify-self: flex-start ;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .image-container{
+    width:50%;
+    height:100%;
+    margin-top: 20%;
+    min-width: 200px;
+    min-height: 300px;
+    background-color: red;
+  }
+
+  .bot-nav-image{
+    background-image: url("../Images//code-center.jpg");
+    background-size: 150% 300%;
+    
+  }
+
+
+  .bottom-nav{
+    height:100%;
+    min-height: 60px;
+    
+    background: rgba(1, 2, 10, 0.911);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    
+
+  }
+
+  .bottom-nav button{
+    width:100%;
+    height:25px;
+    border:none;
+    background-color: #455bcb;
+    color:#d8e7e9;
+    text-shadow: 2px 2px #1d2cb3;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(51, 58, 59);
+    
+
+  }
+
+  .bottom-nav button:active{
+
+    transform: translateY(2px);
+
+  }
+
+
+  @media  (min-width: 601px){
+  
+
+  }

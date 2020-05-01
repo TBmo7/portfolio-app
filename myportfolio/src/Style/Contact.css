@@ -1,0 +1,19 @@
+
+.middle-block{
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.contact-info{
+
+    display:flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    min-height: 400px;
+
+}
